@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exibir Variável do GitHub Pages</title>
+</head>
+<body>
+  <h1>Veja o console para a variável de ambiente</h1>
+
+  <script type="module">
+    // Importa a variável do arquivo env.js
+    import { MY_VAR } from './env.js';
+
+    console.log("Variável de ambiente:", MY_VAR);
+  </script>
+</body>
+</html>
